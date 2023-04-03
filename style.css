@@ -204,3 +204,7 @@ h1{
 .personal-details .matter>div {
     padding: 4px 0;
 }
+
+.project-details{
+    padding-left: 20px;
+}
