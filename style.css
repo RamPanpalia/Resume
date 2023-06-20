@@ -52,7 +52,7 @@
 .Resume {
     transform: scale(0.8);
     width: 80%;
-    aspect-ratio: 1/1.414;
+    /* aspect-ratio: 1/1.414; */
     border-radius: 4px;
     box-shadow: 3px 3px 30px rgb(161, 161, 161);
     overflow: hidden;
