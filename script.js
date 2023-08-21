@@ -24,3 +24,7 @@ function full_exit() {
     resume.style.borderRadius="4px";
     resume.style.width="80%";
 }
+
+function printIt() {
+    window.print();
+}
