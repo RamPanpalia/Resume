@@ -17,7 +17,8 @@
     background: #303745;
 }
 
-.download,.view{
+.download,
+.view {
     z-index: 1;
     position: fixed;
     right: 5%;
@@ -28,17 +29,20 @@
     width: fit-content;
     cursor: pointer;
 }
-.download{
+
+.download {
     background-color: rgb(46, 46, 174);
     padding: 10px 20px;
     top: 30%;
 }
-.view{
+
+.view {
     background-color: rgb(174, 46, 46);
     padding: 7px 20px;
     top: 40%;
 }
-.screenToggle{
+
+.screenToggle {
     z-index: 1;
     position: fixed;
     right: 7%;
@@ -75,12 +79,14 @@ a:active {
 .name {
     padding-bottom: 1em;
 }
-h1{
+
+h1 {
     font-size: 35px;
 }
 
 .main {
     display: flex;
+    /* flex-direction: row-reverse; */
     padding: 2em 0;
 }
 
@@ -89,13 +95,13 @@ h1{
 }
 
 .col1 {
-    width: 62%;
-    border-right: 2px solid rgb(197, 197, 197);
+    width: 72%;
+    border-left: 2px solid rgb(197, 197, 197);
 }
 
 .col-sec {
-    margin: 0.5em;
-    padding: 0.65em 0;
+    margin: 0.5em 0.35em;
+    padding: 0.55em 0;
     border-top: 2px solid rgb(197, 197, 197);
 }
 
@@ -104,7 +110,7 @@ h1{
 }
 
 .head {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .a {
@@ -148,12 +154,12 @@ h1{
 
 .Qualities .matter {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr;
 }
 
 .Qualities .matter .a {
     margin: auto auto auto 0;
-    padding: 10px;
+    padding: 5px;
     display: flex;
 }
 
@@ -206,6 +212,78 @@ h1{
     padding: 4px 0;
 }
 
-.project-details{
+.project-details {
     padding-left: 20px;
+}
+
+.por{
+    font-size: 18px;
+}
+
+.skills-used{
+    color: rgb(35, 35, 35);
+}
+
+@media print {
+    *{
+        font-size: 10px;
+    }
+
+    .Resume {
+        transform: scale(1);
+        width: 100%;
+        height: 100%;
+    }
+
+    .print-none {
+        display: none;
+    }
+
+    .c {
+        font-size: 12px;
+    }
+    /* .a {
+        font-weight: 500;
+    } */
+
+    .Qualities .matter {
+        grid-template-columns: 1fr;
+    }
+
+    /* .main {
+        padding: 2rem 0;
+    }
+
+    .col {
+        padding: 0 2rem;
+    } */
+
+    .Qualities .matter .a {
+        padding: 8px 5px;
+        letter-spacing: 1.2;
+    }
+
+    .head {
+        font-size: 16px;
+    }
+
+    .por{
+        font-size: 15px;
+    }
+
+    .col-sec {
+        margin: 0.45em;
+        padding: 0.5em 0;
+    }
+
+    .col1{
+        width: 82%;
+    }
+    .bull-sec {
+        margin: 5px 0px;
+        padding: 2px 0;
+    }
+    .personal-details .matter>div {
+        padding: 4px 0;
+    }
 }
