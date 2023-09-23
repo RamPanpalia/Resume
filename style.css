@@ -216,16 +216,16 @@ h1 {
     padding-left: 20px;
 }
 
-.por{
+.por {
     font-size: 18px;
 }
 
-.skills-used{
+.skills-used {
     color: rgb(35, 35, 35);
 }
 
 @media print {
-    *{
+    * {
         font-size: 10px;
     }
 
@@ -243,6 +243,7 @@ h1 {
     .c {
         font-size: 12px;
     }
+
     /* .a {
         font-weight: 500;
     } */
@@ -268,7 +269,7 @@ h1 {
         font-size: 16px;
     }
 
-    .por{
+    .por {
         font-size: 15px;
     }
 
@@ -277,13 +278,19 @@ h1 {
         padding: 0.5em 0;
     }
 
-    .col1{
+    .col1 {
         width: 82%;
     }
+
+    .col {
+        padding: 0 1.5em;
+    }
+
     .bull-sec {
         margin: 5px 0px;
         padding: 2px 0;
     }
+
     .personal-details .matter>div {
         padding: 4px 0;
     }
