@@ -233,6 +233,14 @@ h1 {
     margin: 5px 0;
 }
 
+.pers-proj{
+    margin: 4px 10px;
+}
+
+.pers-proj li{
+    margin: 2px 0;
+}
+
 @media print {
     * {
         font-size: 10px;
