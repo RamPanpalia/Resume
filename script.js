@@ -28,3 +28,9 @@ function full_exit() {
 function printIt() {
     window.print();
 }
+
+// check if width is less than 1100px then redirect to https://rampanpalia.github.io/Resume/Ram%20Panpalia.pdf
+
+if (window.innerWidth < 1100) {
+    window.location.href = "https://rampanpalia.github.io/Resume/Ram%20Panpalia.pdf";
+}   
