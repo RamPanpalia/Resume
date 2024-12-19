@@ -31,6 +31,6 @@ function printIt() {
 
 // check if width is less than 1100px then redirect to https://rampanpalia.github.io/Resume/Ram%20Panpalia.pdf
 
-window.location.href = "https://rampanpalia.github.io/Resume/ram panpalia resume v3.pdf";
+window.location.href = "https://rampanpalia.github.io/Resume/Ram Panpalia Resume 06.pdf";
 if (window.innerWidth < 1100) {
 }   
